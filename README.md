@@ -2,7 +2,7 @@
 
 
 > This is a Basic TODO App.
-### 🏠 [Homepage](https://github.com/Mahich123/SpaceX-clone)
+### 🏠 [Homepage](https://github.com/Mahich123/TODO_APP)
 
 ### ✨ [Demo](https://toodo-app.netlify.app/)
 
