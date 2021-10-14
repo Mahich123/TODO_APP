@@ -1,15 +1,17 @@
-import firebase from "firebase"
+import firebase from "firebase/compat/app"
+import { getFirestore } from "firebase/firestore"
+
 
 const firebaseApp = firebase.initializeApp({
-        apiKey: "AIzaSyC0G8xgwHshYqABKTjw3T4GtL6ijUC3O_Q",
-        authDomain: "todo-app-22d54.firebaseapp.com",
-        projectId: "todo-app-22d54",
-        storageBucket: "todo-app-22d54.appspot.com",
-        messagingSenderId: "1087095308779",
-        appId: "1:1087095308779:web:0cc12f3289b88e1df1d9ae",
-        measurementId: "G-059PLDQ4ZG"
-      
-})
-const db = firebaseApp.firestore();
+        apiKey: "AIzaSyDUIxkWyB_8fyD06gK7aA0v0oLidPCYOzo",
+        authDomain: "todo-app-e52d0.firebaseapp.com",
+        projectId: "todo-app-e52d0",
+        storageBucket: "todo-app-e52d0.appspot.com",
+        messagingSenderId: "261254982126",
+        appId: "1:261254982126:web:7fe81df75b0ce3be4d86ff",
+        measurementId: "G-K0Q4RELZ2H"
+});
 
-export{db};
+const db = getFirestore(firebaseApp)
+
+export default db;
